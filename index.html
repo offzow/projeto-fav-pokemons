@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>z projeto Pokedex</title>
+    <link rel="icon" type="image/x-icon" href="./src/imagens/pokeball.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="./src/css/reset.css">
+<link rel="stylesheet" href="./src/css/estilos.css">
+<link rel="stylesheet" href="./src/css/scrollbar.css">
+</head>
+
+<body>
+    <header>
+        <a href="#">
+            <img src="./src/imagens/pokeball.png" alt="pokebola" class="logo">
+        </a>
+        <button id="botao-alterar-tema">
+            <img src="./src/imagens/sun.png" alt="sol" class="imagem-botao">
+        </button>
+    </header>
+    <main>
+        <ul class="listagem-pokemon">
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Greninja</span>
+                    <span>#658</span>
+                </div>
+
+                <img src="./src/imagens/greninja.gif" alt="Greninja" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo agua">Água</li>
+                    <li class="tipo escuridao">Escuridão</li>
+                </ul>
+
+                <p class="descricao">Cria estrelas arremessadas a partir de água comprimida. Quando as gira e as joga em alta velocidade, essas estrelas podem dividir o metal em dois.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Gengar</span>
+                    <span>#094</span>
+                </div>
+
+                <img src="./src/imagens/gengar.gif" alt="Gengar" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo fantasma">Fantasma</li>
+                    <li class="tipo veneno">Veneno</li>
+                </ul>
+
+                <p class="descricao">Para roubar a vida de seu alvo, ele se esconde na sombra da presa e silenciosamente espera por uma oportunidade.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Garchomp</span>
+                    <span>#445</span>
+                </div>
+
+                <img src="./src/imagens/garchomp.gif" alt="Garchomp" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo dragao">Dragão</li>
+                    <li class="tipo terra">Terra</li>
+                </ul>
+
+                <p class="descricao">Diz-se que quando alguém corre em alta velocidade, suas asas criam lâminas de vento que podem derrubar árvores próximas.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Lucario</span>
+                    <span>#448</span>
+                </div>
+
+                <img src="./src/imagens/lucario.gif" alt="Lucario" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo lutador">Lutador</li>
+                    <li class="tipo ferro">Ferro</li>
+                </ul>
+
+                <p class="descricao">Diz-se que nenhum inimigo pode permanecer invisível para Lucario, uma vez que pode detectar auras - mesmo aquelas de inimigos que de outra forma não poderia ver.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Samurott</span>
+                    <span>#503</span>
+                </div>
+
+                <img src="./src/imagens/samurott.gif" alt="Samurott" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo agua">Água</li>
+                </ul>
+
+                <p class="descricao">No tempo que um inimigo leva para piscar, ele pode sacar e embainhar os seatars presos às suas patas dianteiras.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Hydragon</span>
+                    <span>#635</span>
+                </div>
+
+                <img src="./src/imagens/hydragon.gif" alt="Hydragon" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo escuridao">Escuridão</li>
+                    <li class="tipo dragao">Dragão</li>
+                </ul>
+
+                <p class="descricao">Apenas a cabeça central tem cérebro. É muito inteligente, mas só pensa em destruição.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Absol</span>
+                    <span>#359</span>
+                </div>
+
+                <img src="./src/imagens/absol.gif" alt="Absol" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo escuridao">Escuridão</li>
+                </ul>
+
+                <p class="descricao">Rápido como o vento, Absol corre pelos campos e montanhas. Seu chifre curvo em forma de arco é extremamente sensível aos sinais de alerta de desastres naturais.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Blaziken</span>
+                    <span>#257</span>
+                </div>
+
+                <img src="./src/imagens/blaziken.gif" alt="Blaziken" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo fogo">Fogo</li>
+                    <li class="tipo lutador">Lutador</li>
+                </ul>
+
+                <p class="descricao">Em batalha, Blaziken lança chamas intensas de seus pulsos e ataca os inimigos corajosamente. Quanto mais forte o inimigo, mais intensamente os pulsos deste Pokémon queimam.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Salamence</span>
+                    <span>#373</span>
+                </div>
+
+                <img src="./src/imagens/salamence.gif" alt="Salamence" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo dragao">Dragão</li>
+                    <li class="tipo voador">Voador</li>
+                </ul>
+
+                <p class="descricao">Ele voa em suas asas, que finalmente cresceram. Em sua felicidade, jorra chamas quentes, queimando tudo por onde passa. </p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Charizard</span>
+                    <span>#006</span>
+                </div>
+
+                <img src="./src/imagens/charizard.gif" alt="Charizard" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo fogo">Fogo</li>
+                    <li class="tipo voador">Voador</li>
+                </ul>
+
+                <p class="descricao">Ele cospe fogo que é quente o suficiente para derreter pedras. Pode causar incêndios florestais soprando chamas.
+                </p>
+            </li>
+        </ul>
+    </main>
+
+    <script src="./src/js/Index.js"></script>
+</body>
+
+</html>
